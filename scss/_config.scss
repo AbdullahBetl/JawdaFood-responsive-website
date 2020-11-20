@@ -1,0 +1,19 @@
+// Varibles
+
+$website-width: 1280px;
+$main-color: whitesmoke;
+$light-color: #b4d8bf;
+$dark-color: #00782d;
+$medium-color: #459a69;
+$bg-image: url("main.png");
+$other-image: url("othermain.png");
+
+// Set text color
+
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script language="javascript" type="text/javascript">
+        var timerid = 0;
+        var images = new Array(	"2.png",
+        "3.png",
+        "4.png");
+        var countimages = 0;
+        function startTime()
+        {
+            if(timerid)
+            {
+                timerid = 0;
+            }
+            var tDate = new Date();
+            
+            if(countimages == images.length)
+            {
+                countimages = 0;
+            }
+            if(tDate.getSeconds() % 5 == 0)
+            {
+                document.getElementById("img1").src = images[countimages];
+            }
+            countimages++;
+            
+            timerid = setTimeout("startTime()", 1000);
+        }
+        </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon" />
+
+
+    <title>Abdullah Ali | Web Devloper</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body onload="startTime();">
+
+    <section class="main-build">
+
+    <div class="left"><ul>
+        <li><a href="">EN</a></li>
+        <li>|</li> 
+        <li><a href="">تواصل معنا</a></li>
+    </ul></div>    
+    
+    <div class="right"> <ul>
+        <ul>
+           <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+           <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+           <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+           <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+           <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+           <li>تابعنا</li> 
+        </ul>
+    </ul></div>
+
+    <div class="Center">
+
+        <form class="search" action="">
+            <input type="search" placeholder="" required>
+            <button type="submit">Search</button>
+          </form>
+
+    </div> 
+
+   
+
+    </section>
+
+    <header id="header-other">
+      <div class="container ">
+
+
+        <nav id="main-nav">
+
+          <ul>
+              <li><a href="contact.html">تواصل معنا</a></li>
+              <li><a href="fa.html" >المصنع</a></li>
+              <li><a href="photo.html">صور واعلانات</a></li>
+            </ul>
+        
+
+        <img src="img/1.png" alt="" id="logo" />
+
+        <ul>
+          <li><a href="about.html" class="current">من نحن</a></li>
+          <li><a href="Product.html">منتجاتنا</a></li>
+          <li><a href="index.html" >الرئيسية</a></li>
+
+        </ul>
+      </nav>
+      
+      </div>
+    </header>
+
+    <section class="who">
+
+      <div class="set1"> <h1>من نحن ؟</h1>
+
+        <p>شركة جودة فوود للألبان و الأغذية هي شركة يمنية ذات مسؤولية محدودة تابعة لمؤسسة الغراسي للتجارة مقرها  الرئيسي مدينة صنعاء  بالجمهورية اليمنية تأسست عام 2009 للميلاد و تعتبر من  أحدث و أكثر الشركات تطورا في مجال صناعة الألبان و العصائر والاغذية وتوزيعها في اليمن.</p>
+  
+        <div class="spiecials">
+
+          <div>
+                
+            <img src="2.png" alt="">
+
+          </div>
+
+            <div>
+                <img src="3.png" alt="">
+          
+            </div>
+          <div>
+            <img src="4.png" alt="">
+          </div>
+         </div> 
+
+      </div>
+
+
+
+  <div class="set2">
+
+    <div><h1>الرؤية </h1>
+    <p>أن نكون الشركة الأفضل في إنتاج وتسويق الألبان والأغذية في المنطقة
+
+    </p></div>
+
+    <div><h1>الرسالة</h1>
+      <p>جودة فوود تسعى لتقديم منتجات غذائية تلبي رغبات المستهلكين وفقاً لمعايير الجودة الفنية والتسويقية والبيعية، حائزين على تقدير عملائنا وموظفينا.</p></div>
+  
+  </div>
+
+  <div class="set3"> 
+
+    <h1>الانجازات</h1>
+    <p>ما أن بدأت جودة فوود العمل إلا و بدأت  معها الإنجازات،  حيث حصلت في عام 2010 م على شهادة ممارسة التصنيع الجيد من الفئة أ<br> و تسعى شركة جودة فوود للحصول على الشهادات العالمية التالية في خلال السنوات القليلة المقبلة</p>
+
+    <div class="set3pic">
+
+      
+      <div>
+            
+        <img src="iso2.png" alt="">
+
+      </div>
+
+      <div>
+            
+        <img src="iso1.png" alt="">
+
+      </div>
+        <div>
+            <img style="width: 10.9rem;"src="iso3.png" alt="">
+      
+        </div>
+      <div>
+        <img src="iso4.png" alt="">
+      </div>
+     </div> 
+
+  </div>
+
+  <div class="set4">
+
+    <h1>المستقبل</h1>
+
+    <p>تتطلع شركة جودة فوود إلى أن تكون في مقدمة الشركات المصنعة للألبان و العصائرو الاغذية في المنطقة ويكون لها السبق في تلبية رغبة المستهلك، لذا هي تخطط بشكل مستمر لا لتكون منتجاتها متوفرة في  السوق المحلي فحسب بل في السوق الاقلبمي أيضا و من خلال توفير المنتجات المتعددة و ذات  الجودة العالية.
+      تسعى شركة جودة فوود لجعل منتجاتها منتشرة في كل مكان و أن تكون منتجاتها هي الاختيار الأول للمستهلك. لذا ومن هذا المنطلق والثقة بالله أولا و من ثم بالقدرات التي تتملكها الشركة ، فإنها تتطلع إلي أن تحصل على أكبر حصة ممكنة في الأسواق المحلية و الإقليمية  في القريب العاجل بإذن الله ثم ببذل كافة الجهود للوصول إلى ما نتطلع إليه.
+      وختاماً، نشكر جميع عملائنا ومستهلكي منتجات جودة فوود الذين ساهموا في نجاح الشركة الذي نعيشه معكم اليوم، و نعدكم بالتطوير المستمر وتقديم كل ما ينال رضا للمستهلك وما هو أفضل لتبقي منتجات جودة فوود هي الأخيار الأفضل</p>
+
+  </div>
+     
+    </section>
+
+
+
+    <footer id="main-footer"> 
+        <div class="container">
+
+            <div class="fot-bars">
+
+                <div class="bar2">
+                    <form action="">
+                        <h1>.لديك سؤال أو استفسار؟ نحن هنا لمساعدتك
+
+                        </h1>
+                        <input type="text" placeholder="الأسم" color="black">
+                        <input type="text" placeholder="البريد الالكتروني">
+                        <input type="text" placeholder="الرسالة"><br>
+                        <input class="s" type="submit" value="أرسال">
+                    </form>
+                </div>
+
+
+
+                <div class="bar4">
+                    <h1>بيانات الإتصال
+                    </h1>
+
+                    <li><a >قاع القيضي - (طريق تعز ) صنعاء -  اليمن <i class="fas fa-compass"></i></a></li>
+                    <li><a >+ 967 696242 1 <i class="fas fa-phone-square"></i>
+
+                    </li>
+                    <li><a >info@jawdafood.com <i class="fas fa-at"></i></a></li>
+
+                </div>  
+                
+
+                <div class="bar3">
+
+                    <h1>روابط سريعة</h1>    
+                    
+                    <ul>
+                       <li><a href="work.html">الرئيسية</a></li>
+                       <li><a href="index.html" >المصنع</a></li>
+                       <li><a href="about.html">صور واعلانات</a></li>
+                       <li><a href="about.html">من نحن</a></li>
+               <li><a href="work.html">منتجاتنا</a></li>
+               <li><a href="index.html" >المستثمرون</a></li>
+                     </ul>
+                     
+                   </div>
+                <div class="bar1">
+
+                    <h1>شركة جودة فوود للألبان والاغذية المحدودة  </h1>
+                    <h2>(مصنع الجنتين)</h2>
+                    <p>شركة جودة فوود للألبان و الأغذية هي شركة يمنية ذات مسؤولية محدودة تابعة لمؤسسة الغراسي للتجارة مقرها  الرئيسي مدينة صنعاء  بالجمهورية اليمنية تأسست عام 2009 للميلاد و تعتبر من  أحدث و أكثر الشركات تطورا في مجال صناعة الألبان و العصائر والاغذية وتوزيعها في اليمن</p>                </div>
+
+            </div>
+
+
+            </div>
+    </footer>
+
+    <section class="low-build">
+
+        <div class="right">
+        <h1>جميع حقوق الملكية © محفوظة لجودة فوود 2020</h1>
+        </div>    
+        
+        <div class="left"> 
+            <h1>Powered By: AbdullahAlrakhamiWeb</h1>
+        </div>
+    
+    
+    
+        </section>
+
+    <script src="js/typewriter.js"></script>
+  </body>
+</html>

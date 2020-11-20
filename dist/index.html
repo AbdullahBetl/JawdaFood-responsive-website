@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script language="javascript" type="text/javascript">
+        var timerid = 0;
+        var images = new Array(	"2.png",
+        "3.png",
+        "4.png");
+        var countimages = 0;
+        function startTime()
+        {
+            if(timerid)
+            {
+                timerid = 0;
+            }
+            var tDate = new Date();
+            
+            if(countimages == images.length)
+            {
+                countimages = 0;
+            }
+            if(tDate.getSeconds() % 5 == 0)
+            {
+                document.getElementById("img1").src = images[countimages];
+            }
+            countimages++;
+            
+            timerid = setTimeout("startTime()", 1000);
+        }
+        </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/logo2.png" type="image/x-icon" />
+
+
+    <title>Aljanatayn Factory | مصنع الجنتين</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body onload="startTime();">
+
+    <section class="main-build">
+
+    <div class="left"><ul>
+        <li><a href="">EN</a></li>
+        <li>|</li> 
+        <li><a href="">تواصل معنا</a></li>
+    </ul></div>    
+    
+    <div class="right"> <ul>
+        <ul>
+           <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+           <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+           <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+           <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+           <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+           <li>تابعنا</li> 
+        </ul>
+    </ul></div>
+
+    <div class="Center">
+
+        <form class="search" action="">
+            <input type="search" placeholder="" required>
+            <button type="submit">Search</button>
+          </form>
+
+    </div> 
+
+   
+
+    </section>
+
+    <header id="header-home">
+      <div class="container ">
+
+
+        <nav id="main-nav">
+
+            <ul>
+                <li><a href="contact.html">تواصل معنا</a></li>
+                <li><a href="fa.html" >المصنع</a></li>
+                <li><a href="photo.html">صور واعلانات</a></li>
+              </ul>
+          
+
+          <img src="img/1.png" alt="" id="logo" />
+
+          <ul>
+            <li><a href="about.html">من نحن</a></li>
+            <li><a href="Product.html">منتجاتنا</a></li>
+            <li><a href="index.html" class="current">الرئيسية</a></li>
+
+          </ul>
+        </nav>
+
+        <div class="header-content-left">   
+          <img id="img1" src="2.png" />
+        </div>
+
+        <div class="header-content-right">   
+            <h1>
+                نقدم لكم <br>
+              <span
+                style="color:#00782d;"
+                class="txt-type"
+                data-wait="1000"
+                data-words='
+                      ["طعم" , "حياة" , "جودة"]'
+              ></span>
+              <br> أفضل
+            </h1>
+          </div>
+
+
+      
+      </div>
+    </header>
+
+
+    <section id="home-a" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">علامتنا التجارية</h2>
+        <div class="bottom-line"></div>
+   
+        <div class="spiecials">
+
+          <div>
+                
+            <img src="2.png" alt="">
+
+          </div>
+
+            <div>
+                <img src="3.png" alt="">
+          
+            </div>
+          <div>
+            <img src="4.png" alt="">
+          </div>
+         </div>          
+          </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="home-b" class="text-center py-2">
+
+      <div class="left">
+  
+          <h1> متواجدين في قلب السوق العالمي  </h1>
+          <p>لنقدم أطعمة ذات قيمة غذائية وجودة عالية تثري حياة المستهلكين كل يوم</p>
+
+      </div>
+
+    </section>
+
+    <section id="home-c" class="text-center py-2">
+        <div class="container">
+            <h2 class="section-title">منتجاتنا</h2>
+            <div class="bottom-line"></div>
+            <div class="process">
+
+             <div> 
+                <h1>منتجات المشروبات </h1>
+
+            <img src="p1.png" alt="">
+            <p>منتجات المشروبات تتوفر بعدة نكهات هي: البرتقال ، المانجو ، التفاح ، الجوافة ، المانجو <br> التفاح  ، العنب الاحمر ، مشكل التوت ، مشكل الفواكة </p>                
+        </div>
+            
+           <div> 
+               
+            <h1>منتجات الحليب
+
+            </h1>
+            <img src="p2.png" alt="">
+            <p>حليب كامل الدسم مصنوع من حليب الابقار ويتوفر في عبوات تتراباك وتتراباك فينو بحجمين هما (125 مل ، 250 مل)</p>
+                    
+            </div>
+      
+           <div> 
+            <h1>منتجات الألبان و الزبادي
+
+            </h1>   
+            <img src="p3.png" alt="">
+            <p>مصنوع من حليب الابقار و يتوفر في عبوات بلاستكية و بحجمين مختلفين هما (200 جم ، 500 جم) وثلاثة انواع زبادي وحقين وحقين بالبهارات.
+
+            </p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="main-footer"> 
+        <div class="container">
+
+            <div class="fot-bars">
+
+                <div class="bar2">
+                    <form action="">
+                        <h1>.لديك سؤال أو استفسار؟ نحن هنا لمساعدتك
+
+                        </h1>
+                        <input type="text" placeholder="الأسم" color="black">
+                        <input type="text" placeholder="البريد الالكتروني">
+                        <input type="text" placeholder="الرسالة"><br>
+                        <input class="s" type="submit" value="أرسال">
+                    </form>
+                </div>
+
+
+
+                <div class="bar4">
+                    <h1>بيانات الإتصال
+                    </h1>
+
+                    <li><a >قاع القيضي - (طريق تعز ) صنعاء -  اليمن <i class="fas fa-compass"></i></a></li>
+                    <li><a >+ 967 696242 1 <i class="fas fa-phone-square"></i>
+
+                    </li>
+                    <li><a >info@jawdafood.com <i class="fas fa-at"></i></a></li>
+
+                </div>  
+                
+
+                <div class="bar3">
+
+                    <h1>روابط سريعة</h1>    
+                    
+                    <ul>
+                       <li><a href="work.html">الرئيسية</a></li>
+                       <li><a href="index.html" >المصنع</a></li>
+                       <li><a href="about.html">صور واعلانات</a></li>
+                       <li><a href="about.html">من نحن</a></li>
+               <li><a href="work.html">منتجاتنا</a></li>
+               <li><a href="index.html" class="current">المستثمرون</a></li>
+                     </ul>
+                     
+                   </div>
+                <div class="bar1">
+
+                    <h1>شركة جودة فوود للألبان والاغذية المحدودة  </h1>
+                    <h2>(مصنع الجنتين)</h2>
+                    <p>شركة جودة فوود للألبان و الأغذية هي شركة يمنية ذات مسؤولية محدودة تابعة لمؤسسة الغراسي للتجارة مقرها  الرئيسي مدينة صنعاء  بالجمهورية اليمنية تأسست عام 2009 للميلاد و تعتبر من  أحدث و أكثر الشركات تطورا في مجال صناعة الألبان و العصائر والاغذية وتوزيعها في اليمن</p>                </div>
+
+            </div>
+
+         
+
+
+
+            </div>
+    </footer>
+
+    <section class="low-build">
+
+        <div class="right">
+        <h1>جميع حقوق الملكية © محفوظة لجودة فوود 2020</h1>
+        </div>    
+        
+        <div class="left"> 
+            <h1>Powered By: AbdullahAlrakhamiWeb</h1>
+        </div>
+    
+    
+    
+        </section>
+
+    <script src="js/typewriter.js"></script>
+  </body>
+</html>
